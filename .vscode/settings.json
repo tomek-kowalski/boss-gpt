@@ -1,7 +1,20 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:conda",
-    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "python-envs.defaultEnvManager": "ms-python.python:venv",
+    "python-envs.defaultPackageManager": "ms-python.python:pip",
+    "python.defaultInterpreterPath": "E:\\boss-gpt\\.venv\\Scripts\\python.exe",
+    "python.terminal.activateEnvironment": true,
+
+
+    "git.ignoreLimitWarning": true,
+
     "chat.agentFilesLocations": {
         ".boss-gpt": true
+    },
+
+    "yolo.settings": {
+        "runs_dir": "E:/boss-gpt/runs",
+        "data_dir": "E:/boss-gpt/data",
+        "weights_dir": "E:/boss-gpt/weights",
+        "project": "E:/boss-gpt/runs/train"
     }
 }

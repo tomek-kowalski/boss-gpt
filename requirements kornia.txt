@@ -1,0 +1,8 @@
+torch
+kornia
+pandas
+opencv-python
+kornia_moons
+numpy
+matplotlib
+
